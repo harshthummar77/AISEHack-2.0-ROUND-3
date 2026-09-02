@@ -57,7 +57,6 @@ print(f"files >50 MB (GitHub warns at 50, blocks at 100): {len(big)}")
 for f, s in big:
     print(f"   !! {s/1024/1024:.1f} MB  {f}")
 must = ["SUBMISSION/WRITEUP.md", "SUBMISSION/METHODOLOGY.md",
-        "SUBMISSION/Team8bit_Round3_GoaFinals.pptx",
         "SUBMISSION/aisehack_round3_sar_yield_forecast_EXECUTED.ipynb",
         "SUBMISSION/plot_level_yield_forecast.csv",
         "SUBMISSION/village_level_yield_forecast.csv",
@@ -71,3 +70,13 @@ names = {f for f, _ in tracked}
 print("\nrequired files present in the tracked set:")
 for m in must:
     print(("   ok   " if m in names else "   MISSING  ") + m)
+
+# deliberately withheld from the push, but must still exist on disk because the
+# Kaggle Writeup requires them as attachments
+held = ["SUBMISSION/Team8bit_Round3_GoaFinals.pptx"]
+print("\nheld back from the push (must still exist locally):")
+for h in held:
+    on_disk = os.path.exists(os.path.join(BASE, h))
+    ignored = h not in names
+    state = "ok   " if (on_disk and ignored) else "CHECK"
+    print(f"   {state} {h}  on-disk={on_disk}  excluded-from-git={ignored}")
