@@ -1,0 +1,6 @@
+village_id,village_name,crop_type,n_plots,area_ha,area_share_pct,yield_forecast_kg_ha,yield_p10_kg_ha,yield_p50_kg_ha,yield_p90_kg_ha,production_t,production_p10_t,production_p90_t,district_ref_kg_ha,season_factor_2025,season_observed_frac,product,yield_seed_cotton_kg_ha
+22,Sokhda,Rice,226,60.39,13.5,1717.1,1401.1,1711.2,2020.7,103.7,84.62,122.04,1690.0,1.016,1.0,paddy grain,
+22,Sokhda,Cotton,364,192.73,43.1,819.6,674.0,819.3,971.7,157.96,129.9,187.28,776.0,1.056,0.78,lint,2342.0
+22,Sokhda,Maize,74,34.27,7.7,2479.1,2008.4,2466.2,2967.7,84.95,68.82,101.69,2312.0,1.072,0.55,grain,
+22,Sokhda,Bajra,54,34.58,7.7,2931.9,2377.1,2928.3,3572.5,101.37,82.19,123.52,2714.0,1.08,0.5,grain,
+22,Sokhda,Groundnut,248,125.58,28.1,2453.4,2006.6,2451.2,2919.3,308.09,251.98,366.59,2514.0,0.976,0.6,pod,

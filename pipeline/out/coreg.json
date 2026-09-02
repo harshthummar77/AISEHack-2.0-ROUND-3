@@ -1,0 +1,99 @@
+{
+ "reference": "2025-06-06",
+ "res_m": 2.0,
+ "max_search_px": 8,
+ "shifts": [
+  {
+   "date": "2025-06-06",
+   "d_row_px": 0.0,
+   "d_col_px": 0.0,
+   "d_east_m": -0.0,
+   "d_north_m": -0.0,
+   "peak_snr": Infinity
+  },
+  {
+   "date": "2025-06-19",
+   "d_row_px": 0.01596083864569664,
+   "d_col_px": 0.022110337391495705,
+   "d_east_m": -0.04422067478299141,
+   "d_north_m": -0.03192167729139328,
+   "peak_snr": 12.193670272827148
+  },
+  {
+   "date": "2025-08-14",
+   "d_row_px": 0.008524824865162373,
+   "d_col_px": 0.014470089226961136,
+   "d_east_m": -0.02894017845392227,
+   "d_north_m": -0.017049649730324745,
+   "peak_snr": 14.213640213012695
+  },
+  {
+   "date": "2025-10-13",
+   "d_row_px": 0.01168361958116293,
+   "d_col_px": 0.01600736379623413,
+   "d_east_m": -0.03201472759246826,
+   "d_north_m": -0.02336723916232586,
+   "peak_snr": 13.866313934326172
+  },
+  {
+   "date": "2025-10-29",
+   "d_row_px": -0.031102579087018967,
+   "d_col_px": 0.02793923020362854,
+   "d_east_m": -0.05587846040725708,
+   "d_north_m": 0.06220515817403793,
+   "peak_snr": 8.191407203674316
+  },
+  {
+   "date": "2025-11-12",
+   "d_row_px": 0.010593949817121029,
+   "d_col_px": 0.011458874680101871,
+   "d_east_m": -0.022917749360203743,
+   "d_north_m": -0.021187899634242058,
+   "peak_snr": 13.237689971923828
+  }
+ ],
+ "radiometric": [
+  {
+   "date": "2025-06-06",
+   "median_db_stable": NaN,
+   "delta_vs_ref_db": NaN,
+   "scene_median_db": -19.471550157353626,
+   "incidence": 35.24410592460588
+  },
+  {
+   "date": "2025-06-19",
+   "median_db_stable": NaN,
+   "delta_vs_ref_db": NaN,
+   "scene_median_db": -18.467331452420492,
+   "incidence": 28.76827008275439
+  },
+  {
+   "date": "2025-08-14",
+   "median_db_stable": NaN,
+   "delta_vs_ref_db": NaN,
+   "scene_median_db": -20.030343902906566,
+   "incidence": 28.69211552018547
+  },
+  {
+   "date": "2025-10-13",
+   "median_db_stable": NaN,
+   "delta_vs_ref_db": NaN,
+   "scene_median_db": -19.563555151686955,
+   "incidence": 31.52778692674072
+  },
+  {
+   "date": "2025-10-29",
+   "median_db_stable": NaN,
+   "delta_vs_ref_db": NaN,
+   "scene_median_db": -18.71484465670691,
+   "incidence": 29.839931800357302
+  },
+  {
+   "date": "2025-11-12",
+   "median_db_stable": NaN,
+   "delta_vs_ref_db": NaN,
+   "scene_median_db": -21.71931298996342,
+   "incidence": 29.745887627545393
+  }
+ ]
+}

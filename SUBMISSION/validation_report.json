@@ -1,0 +1,251 @@
+{
+ "site": {
+  "village": "Sokhda",
+  "village_id": 22,
+  "district": "Vadodara",
+  "state": "Gujarat",
+  "agroclimatic_zone": "Middle Gujarat (GJ-3)",
+  "n_plots": 966,
+  "mapped_area_ha": 447.5397185859593
+ },
+ "sar": {
+  "sensor": "Capella X-band (9.65 GHz) HH stripmap SLC",
+  "n_passes": 6,
+  "dates": [
+   "2025-06-06",
+   "2025-06-19",
+   "2025-08-14",
+   "2025-10-13",
+   "2025-10-29",
+   "2025-11-12"
+  ],
+  "incidence_deg_range": [
+   28.69,
+   35.24
+  ],
+  "look_directions": {
+   "left": 5,
+   "right": 1
+  },
+  "product_radiometry": "beta_nought, calibration=full",
+  "geocoding": "own RPC00B model, RMS 0.0000 px vs 225 product GCPs; terrain-referenced using Copernicus GLO-30",
+  "terrain": {
+   "dem": "Copernicus GLO-30 (EGM2008 orthometric), tile N22E073",
+   "geoid_offset_m": -62.023,
+   "geoid_offset_scene_sd_m": 0.124,
+   "relief_over_farm_block_m": 26.6,
+   "rpc_roundtrip_rmse_px_dem": [
+    4.1,
+    4.7
+   ],
+   "rpc_roundtrip_rmse_px_constant_height": [
+    15.13,
+    16.61
+   ],
+   "corr_vs_capella_geocoding_constant_height": 0.769,
+   "corr_vs_capella_geocoding_terrain": 0.84,
+   "note": "an earlier version used a single constant height of -20 m ellipsoidal; its residual global shift was <=2.8 m because a global shift metric recovers the mean alignment and leaves the spatially varying terrain component untouched. The tell was the single right-looking pass, whose co-registration residual fell from 2.54 m to 0.12 m once terrain was carried."
+  },
+  "coregistration_residual_m": {
+   "2025-06-06": 0.0,
+   "2025-06-19": 0.08,
+   "2025-08-14": 0.05,
+   "2025-10-13": 0.06,
+   "2025-10-29": 0.12,
+   "2025-11-12": 0.04
+  }
+ },
+ "validation_same_day_optical": {
+  "2025-10-13": {
+   "pearson_r": 0.3549,
+   "spearman_rho": 0.5635,
+   "p_value": 8.816280909681686e-29,
+   "n": 923,
+   "same_day": true
+  },
+  "2025-11-12": {
+   "pearson_r": 0.476,
+   "spearman_rho": 0.4824,
+   "p_value": 3.727052588341275e-54,
+   "n": 937,
+   "same_day": true
+  }
+ },
+ "validation_yield_index_vs_ndvi_within_crop": {
+  "Rice": {
+   "spearman_rho": 0.3647,
+   "p_value": 1.6191932518750534e-08,
+   "n": 226
+  },
+  "Cotton": {
+   "spearman_rho": 0.3611,
+   "p_value": 1.1783740391599847e-12,
+   "n": 364
+  },
+  "Maize": {
+   "spearman_rho": 0.0185,
+   "p_value": 0.8754018333423704,
+   "n": 74
+  },
+  "Bajra": {
+   "spearman_rho": -0.0714,
+   "p_value": 0.6079441612789795,
+   "n": 54
+  },
+  "Groundnut": {
+   "spearman_rho": 0.1119,
+   "p_value": 0.07873364410212082,
+   "n": 248
+  }
+ },
+ "crop_label_separation_nov_ndvi": {
+  "round3_6pass": {
+   "kruskal_H": 81.59,
+   "p_value": 8.034105074819367e-17,
+   "eta_squared": 0.0845
+  },
+  "round2_carryforward": {
+   "kruskal_H": 130.27,
+   "p_value": 3.404945534848277e-27,
+   "eta_squared": 0.1376
+  }
+ },
+ "crop_label_agreement_round2_vs_round3": 0.46045503791982667,
+ "optical_availability": {
+  "sentinel2_overpasses_jun_nov": 46,
+  "usable_below_20pct_cloud": 10,
+  "overpasses_19jun_to_08oct": 29,
+  "best_cloud_pct_in_that_window": 23.3,
+  "blackout_days": 111,
+  "note": "no usable optical scene between 19 June and 8 October 2025; all six SAR passes were unaffected"
+ },
+ "village_forecast": [
+  {
+   "village_id": 22,
+   "village_name": "Sokhda",
+   "crop_type": "Rice",
+   "n_plots": 226,
+   "area_ha": 60.39,
+   "area_share_pct": 13.5,
+   "yield_forecast_kg_ha": 1717.1,
+   "yield_p10_kg_ha": 1401.1,
+   "yield_p50_kg_ha": 1711.2,
+   "yield_p90_kg_ha": 2020.7,
+   "production_t": 103.7,
+   "production_p10_t": 84.62,
+   "production_p90_t": 122.04,
+   "district_ref_kg_ha": 1690.0,
+   "season_factor_2025": 1.016,
+   "season_observed_frac": 1.0,
+   "product": "paddy grain",
+   "yield_seed_cotton_kg_ha": NaN
+  },
+  {
+   "village_id": 22,
+   "village_name": "Sokhda",
+   "crop_type": "Cotton",
+   "n_plots": 364,
+   "area_ha": 192.73,
+   "area_share_pct": 43.1,
+   "yield_forecast_kg_ha": 819.6,
+   "yield_p10_kg_ha": 674.0,
+   "yield_p50_kg_ha": 819.3,
+   "yield_p90_kg_ha": 971.7,
+   "production_t": 157.96,
+   "production_p10_t": 129.9,
+   "production_p90_t": 187.28,
+   "district_ref_kg_ha": 776.0,
+   "season_factor_2025": 1.056,
+   "season_observed_frac": 0.78,
+   "product": "lint",
+   "yield_seed_cotton_kg_ha": 2342.0
+  },
+  {
+   "village_id": 22,
+   "village_name": "Sokhda",
+   "crop_type": "Maize",
+   "n_plots": 74,
+   "area_ha": 34.27,
+   "area_share_pct": 7.7,
+   "yield_forecast_kg_ha": 2479.1,
+   "yield_p10_kg_ha": 2008.4,
+   "yield_p50_kg_ha": 2466.2,
+   "yield_p90_kg_ha": 2967.7,
+   "production_t": 84.95,
+   "production_p10_t": 68.82,
+   "production_p90_t": 101.69,
+   "district_ref_kg_ha": 2312.0,
+   "season_factor_2025": 1.072,
+   "season_observed_frac": 0.55,
+   "product": "grain",
+   "yield_seed_cotton_kg_ha": NaN
+  },
+  {
+   "village_id": 22,
+   "village_name": "Sokhda",
+   "crop_type": "Bajra",
+   "n_plots": 54,
+   "area_ha": 34.58,
+   "area_share_pct": 7.7,
+   "yield_forecast_kg_ha": 2931.9,
+   "yield_p10_kg_ha": 2377.1,
+   "yield_p50_kg_ha": 2928.3,
+   "yield_p90_kg_ha": 3572.5,
+   "production_t": 101.37,
+   "production_p10_t": 82.19,
+   "production_p90_t": 123.52,
+   "district_ref_kg_ha": 2714.0,
+   "season_factor_2025": 1.08,
+   "season_observed_frac": 0.5,
+   "product": "grain",
+   "yield_seed_cotton_kg_ha": NaN
+  },
+  {
+   "village_id": 22,
+   "village_name": "Sokhda",
+   "crop_type": "Groundnut",
+   "n_plots": 248,
+   "area_ha": 125.58,
+   "area_share_pct": 28.1,
+   "yield_forecast_kg_ha": 2453.4,
+   "yield_p10_kg_ha": 2006.6,
+   "yield_p50_kg_ha": 2451.2,
+   "yield_p90_kg_ha": 2919.3,
+   "production_t": 308.09,
+   "production_p10_t": 251.98,
+   "production_p90_t": 366.59,
+   "district_ref_kg_ha": 2514.0,
+   "season_factor_2025": 0.976,
+   "season_observed_frac": 0.6,
+   "product": "pod",
+   "yield_seed_cotton_kg_ha": NaN
+  }
+ ],
+ "assumptions": {
+  "absolute_level": "area-weighted village mean yield per crop is set to the Vadodara district yield (Directorate of Agriculture, Gujarat, 2022-23) times a 2025 season factor; SAR determines only the distribution about that mean",
+  "season_factor": {
+   "Rice": 1.016,
+   "Cotton": 1.056,
+   "Maize": 1.072,
+   "Bajra": 1.08,
+   "Groundnut": 0.976
+  },
+  "district_reference_kg_ha": {
+   "Rice": 1690.0,
+   "Cotton": 776.0,
+   "Maize": 2312.0,
+   "Bajra": 2714.0,
+   "Groundnut": 2514.0
+  },
+  "rho_sar_explains_yield_spread": 0.55,
+  "crop_labels": "Round-1/2 carry-forward, area-constrained; an independent 6-pass re-derivation agrees on 46% of the SAR-observed plots and that disagreement is propagated as label uncertainty",
+  "cotton_reported_as": "lint (seed cotton = lint / 0.35)"
+ },
+ "limitations": [
+  "No ground-truth yield exists for any plot, so absolute accuracy cannot be verified; only internal consistency and independent optical agreement are testable.",
+  "A 60-day gap between 14 Aug and 13 Oct brackets the entire maturity and harvest of maize, bajra and groundnut, so their yield-forming period is sampled once.",
+  "The AOI is wider than one Capella stripmap swath; 43 plots fall outside all six footprints and receive the crop mean with inflated uncertainty.",
+  "Vadodara also grows castor and pigeon pea at areas comparable to maize, but the task permits only five classes, so some plots are certainly another crop.",
+  "X-band HH saturates early and is weakly related to biomass at high LAI; the method therefore uses phenological timing and canopy retention, not biomass inversion."
+ ]
+}

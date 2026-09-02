@@ -1,0 +1,11 @@
+crop_type,n_plots,area_ha,yield_kg_ha,production_t,scenario
+Rice,148,61.47,1717.1,105.56,A_round1
+Cotton,455,188.04,819.6,154.13,A_round1
+Maize,71,35.44,2479.1,87.87,A_round1
+Bajra,82,35.1,2931.9,102.9,A_round1
+Groundnut,210,127.48,2453.4,312.78,A_round1
+Rice,194,78.86,1717.1,135.41,B_district
+Cotton,613,291.79,819.6,239.16,B_district
+Maize,129,64.19,2479.1,159.12,B_district
+Bajra,21,11.06,2931.9,32.43,B_district
+Groundnut,9,1.65,2453.4,4.04,B_district

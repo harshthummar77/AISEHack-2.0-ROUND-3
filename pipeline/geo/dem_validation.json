@@ -1,0 +1,32 @@
+{
+ "2025-06-06": {
+  "corr_dem": 0.896,
+  "corr_constant_height": 0.792,
+  "residual_shift_m": 0.0
+ },
+ "2025-06-19": {
+  "corr_dem": 0.751,
+  "corr_constant_height": 0.744,
+  "residual_shift_m": 1.0
+ },
+ "2025-08-14": {
+  "corr_dem": 0.824,
+  "corr_constant_height": 0.787,
+  "residual_shift_m": 1.0
+ },
+ "2025-10-13": {
+  "corr_dem": 0.763,
+  "corr_constant_height": 0.675,
+  "residual_shift_m": 1.41
+ },
+ "2025-10-29": {
+  "corr_dem": 0.898,
+  "corr_constant_height": 0.83,
+  "residual_shift_m": 1.41
+ },
+ "2025-11-12": {
+  "corr_dem": 0.91,
+  "corr_constant_height": 0.787,
+  "residual_shift_m": 1.41
+ }
+}

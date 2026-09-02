@@ -1,0 +1,18 @@
+{
+ "scenario_A_total_t": 763.24,
+ "scenario_B_total_t": 570.16,
+ "round1_ha": {
+  "Cotton": 136.03,
+  "Groundnut": 92.38,
+  "Rice": 44.59,
+  "Maize": 25.8,
+  "Bajra": 25.7
+ },
+ "district_00ha": {
+  "Rice": 498.18,
+  "Maize": 407.94,
+  "Cotton": 1854.79,
+  "Bajra": 70.22,
+  "Groundnut": 10.04
+ }
+}

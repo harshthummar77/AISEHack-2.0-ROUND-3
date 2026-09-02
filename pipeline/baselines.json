@@ -1,0 +1,152 @@
+[
+ {
+  "pair": "06-06 / 06-19",
+  "dt_days": 12.8,
+  "bperp_m": 72418.7,
+  "bcrit_m": 6490.6,
+  "gamma_geom": 0.0,
+  "dinc_deg": 6.48,
+  "same_look": true,
+  "verdict": "impossible - beyond critical baseline"
+ },
+ {
+  "pair": "06-06 / 08-14",
+  "dt_days": 68.8,
+  "bperp_m": 72400.4,
+  "bcrit_m": 6490.6,
+  "gamma_geom": 0.0,
+  "dinc_deg": 6.55,
+  "same_look": true,
+  "verdict": "impossible - beyond critical baseline"
+ },
+ {
+  "pair": "06-06 / 10-13",
+  "dt_days": 128.8,
+  "bperp_m": 41539.6,
+  "bcrit_m": 6490.6,
+  "gamma_geom": 0.0,
+  "dinc_deg": 3.72,
+  "same_look": true,
+  "verdict": "impossible - beyond critical baseline"
+ },
+ {
+  "pair": "06-06 / 10-29",
+  "dt_days": 145.5,
+  "bperp_m": 571963.1,
+  "bcrit_m": 6490.6,
+  "gamma_geom": 0.0,
+  "dinc_deg": 5.4,
+  "same_look": false,
+  "verdict": "impossible - opposite look direction"
+ },
+ {
+  "pair": "06-06 / 11-12",
+  "dt_days": 159.3,
+  "bperp_m": 60077.7,
+  "bcrit_m": 6490.6,
+  "gamma_geom": 0.0,
+  "dinc_deg": 5.5,
+  "same_look": true,
+  "verdict": "impossible - beyond critical baseline"
+ },
+ {
+  "pair": "06-19 / 08-14",
+  "dt_days": 56.0,
+  "bperp_m": 844.1,
+  "bcrit_m": 3975.0,
+  "gamma_geom": 0.788,
+  "dinc_deg": 0.08,
+  "same_look": true,
+  "verdict": "geometry OK, temporal decorrelation fatal at X band"
+ },
+ {
+  "pair": "06-19 / 10-13",
+  "dt_days": 116.0,
+  "bperp_m": 30849.5,
+  "bcrit_m": 3975.0,
+  "gamma_geom": 0.0,
+  "dinc_deg": 2.76,
+  "same_look": true,
+  "verdict": "impossible - beyond critical baseline"
+ },
+ {
+  "pair": "06-19 / 10-29",
+  "dt_days": 132.7,
+  "bperp_m": 538402.2,
+  "bcrit_m": 3975.0,
+  "gamma_geom": 0.0,
+  "dinc_deg": 1.07,
+  "same_look": false,
+  "verdict": "impossible - opposite look direction"
+ },
+ {
+  "pair": "06-19 / 11-12",
+  "dt_days": 146.5,
+  "bperp_m": 10704.4,
+  "bcrit_m": 3975.0,
+  "gamma_geom": 0.0,
+  "dinc_deg": 0.98,
+  "same_look": true,
+  "verdict": "impossible - beyond critical baseline"
+ },
+ {
+  "pair": "08-14 / 10-13",
+  "dt_days": 60.0,
+  "bperp_m": 31700.5,
+  "bcrit_m": 3906.2,
+  "gamma_geom": 0.0,
+  "dinc_deg": 2.84,
+  "same_look": true,
+  "verdict": "impossible - beyond critical baseline"
+ },
+ {
+  "pair": "08-14 / 10-29",
+  "dt_days": 76.7,
+  "bperp_m": 537965.3,
+  "bcrit_m": 3906.2,
+  "gamma_geom": 0.0,
+  "dinc_deg": 1.15,
+  "same_look": false,
+  "verdict": "impossible - opposite look direction"
+ },
+ {
+  "pair": "08-14 / 11-12",
+  "dt_days": 90.4,
+  "bperp_m": 11539.0,
+  "bcrit_m": 3906.2,
+  "gamma_geom": 0.0,
+  "dinc_deg": 1.05,
+  "same_look": true,
+  "verdict": "impossible - beyond critical baseline"
+ },
+ {
+  "pair": "10-13 / 10-29",
+  "dt_days": 16.7,
+  "bperp_m": 553581.7,
+  "bcrit_m": 4816.6,
+  "gamma_geom": 0.0,
+  "dinc_deg": 1.69,
+  "same_look": false,
+  "verdict": "impossible - opposite look direction"
+ },
+ {
+  "pair": "10-13 / 11-12",
+  "dt_days": 30.5,
+  "bperp_m": 19489.9,
+  "bcrit_m": 4816.6,
+  "gamma_geom": 0.0,
+  "dinc_deg": 1.78,
+  "same_look": true,
+  "verdict": "impossible - beyond critical baseline"
+ },
+ {
+  "pair": "10-29 / 11-12",
+  "dt_days": 13.7,
+  "bperp_m": 540282.8,
+  "bcrit_m": 4221.8,
+  "gamma_geom": 0.0,
+  "dinc_deg": 0.09,
+  "same_look": false,
+  "verdict": "impossible - opposite look direction"
+ }
+]

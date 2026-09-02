@@ -1,0 +1,40 @@
+{
+ "round1_ha": {
+  "Cotton": 136.03,
+  "Groundnut": 92.38,
+  "Rice": 44.59,
+  "Maize": 25.8,
+  "Bajra": 25.7
+ },
+ "target_ha": {
+  "Rice": 60.63892670328864,
+  "Cotton": 184.99020406926113,
+  "Maize": 35.08599033291874,
+  "Bajra": 34.949998122326036,
+  "Groundnut": 125.62960414554392
+ },
+ "feature_scale": {
+  "a_jun": {
+   "med": 0.0,
+   "iqr_sd": 1.5384428053983854
+  },
+  "a_est": {
+   "med": 0.0,
+   "iqr_sd": 1.4803824909003775
+  },
+  "a_oct": {
+   "med": 0.0,
+   "iqr_sd": 1.047080671283562
+  },
+  "a_sen": {
+   "med": 0.0,
+   "iqr_sd": 0.8985838950166369
+  },
+  "a_lat": {
+   "med": 0.0,
+   "iqr_sd": 1.7904086498263325
+  }
+ },
+ "lp_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+ "agreement_with_round2_observed": 0.46045503791982667
+}

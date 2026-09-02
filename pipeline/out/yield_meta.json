@@ -1,0 +1,64 @@
+{
+ "nsim": 4000,
+ "rho": 0.55,
+ "rho_range": [
+  0.4,
+  0.7
+ ],
+ "yield_cv": {
+  "Rice": 0.28,
+  "Cotton": 0.35,
+  "Maize": 0.32,
+  "Bajra": 0.35,
+  "Groundnut": 0.33
+ },
+ "season_observed": {
+  "Rice": 1.0,
+  "Cotton": 0.78,
+  "Maize": 0.55,
+  "Bajra": 0.5,
+  "Groundnut": 0.6
+ },
+ "weights": {
+  "Rice": {
+   "est": 0.35,
+   "oct": 0.4,
+   "ret": 0.0,
+   "uni": 0.25
+  },
+  "Cotton": {
+   "est": 0.25,
+   "oct": 0.25,
+   "ret": 0.25,
+   "uni": 0.25
+  },
+  "Maize": {
+   "est": 0.55,
+   "oct": 0.15,
+   "ret": 0.0,
+   "uni": 0.3
+  },
+  "Bajra": {
+   "est": 0.55,
+   "oct": 0.15,
+   "ret": 0.0,
+   "uni": 0.3
+  },
+  "Groundnut": {
+   "est": 0.55,
+   "oct": 0.15,
+   "ret": 0.0,
+   "uni": 0.3
+  }
+ },
+ "label_weight_carryforward": 0.6,
+ "cotton_f_set": 0.7,
+ "cotton_kappa_ret": 0.35,
+ "season_factor": {
+  "Rice": 1.01606,
+  "Cotton": 1.05621,
+  "Maize": 1.07227,
+  "Bajra": 1.0803,
+  "Groundnut": 0.9759099999999999
+ }
+}

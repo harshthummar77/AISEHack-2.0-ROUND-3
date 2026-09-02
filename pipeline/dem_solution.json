@@ -1,0 +1,6 @@
+{
+ "geoid_offset_m": -62.02270648506411,
+ "dem": "Copernicus GLO-30 (EGM2008 orthometric)",
+ "terrain_ortho_min": 24.35690029654542,
+ "terrain_ortho_max": 50.968300428342616
+}
