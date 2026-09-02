@@ -43,10 +43,18 @@ pipeline/out/*.csv
 #      attachment (d) of the Kaggle Writeup. Delete this line to publish it.
 SUBMISSION/*.pptx
 
+# ---- internal tooling: not part of the submission ---------------------
+#      Deck/notebook/figure generators and our own QA and repo-admin
+#      scripts. They produce deliverables but are workflow, not science —
+#      the pipeline that earns the marks is in pipeline/.
+tools/
+
 # ---- Round 2 archive: keep only the carry-forward labels the ----------
 #      Round 3 pipeline actually reads
 round_2_submmision_files/*
 !round_2_submmision_files/farm_level_results.csv
+SUBMISSION/Team8bit_Round3_GoaFinals.pptx
+deleted:    SUBMISSION/aisehack_round3_sar_yield_forecast.ipynb
 
 # ---- LaTeX build artefacts (the compiled PDF itself IS committed) -----
 *.aux

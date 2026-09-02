@@ -23,9 +23,9 @@ development and to generate the deliverables.
 | Model | `40`–`41`, `50`–`51` | crop assignment + adjudication, yield forecast + Monte Carlo, crop-mix scenarios |
 | Outputs | `60`, `70` | media gallery maps and charts, deliverable tables |
 
-Packaging and QA scripts — the notebook and deck generators, the diagram, and the
-submission checks — live in `../tools/`. They produce deliverables but are not part
-of the processing chain.
+Packaging and QA scripts — the notebook and deck generators, the diagram, and our
+own submission checks — are deliberately kept out of this repository. They produce
+deliverables but are workflow, not part of the processing chain.
 
 ## Running
 
